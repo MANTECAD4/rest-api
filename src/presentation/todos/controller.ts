@@ -1,6 +1,6 @@
 import { Request, Response } from "express";
-import { prismaClient } from "../../data/postgres";
-import { CreateTodoDto } from "../../dtos/todos/create-todo.dto";
+import { CreateTodoDto } from "../../dtos/todos/create-todo.dto.js";
+import { prismaClient } from "../../data/postgres.js";
 
 export class TodosController {
   constructor() {}
