@@ -20,11 +20,14 @@ export class Server {
   }
 
   async start() {
+    // Formatos de  Body admitidos en la petición
     this.app.use(express.json());
     this.app.use(express.urlencoded());
 
+    // Ruta a recursos que se pueden solicitar (JS / CSS / Etc)
     this.app.use(express.static("public"));
 
+    // Uso del router
     this.app.use(this.routes);
 
     // SPA - sirve los archivos al recargar
