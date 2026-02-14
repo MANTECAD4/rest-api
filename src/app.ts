@@ -1,6 +1,6 @@
-import { envs } from "./configs/envs.config";
-import { AppRoutes } from "./presentation/routes";
-import { Server } from "./presentation/server";
+import { envs } from "./configs/envs.config.js";
+import { AppRoutes } from "./presentation/routes.js";
+import { Server } from "./presentation/server.js";
 
 (async () => {
   main();
