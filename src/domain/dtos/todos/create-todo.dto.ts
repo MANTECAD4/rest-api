@@ -1,16 +1,14 @@
 export class CreateTodoDto {
-  private constructor(public readonly description: string) {}
-
-  get values() {
-    const returnObjet: Record<string, any> = {};
-    if (this.description) returnObjet.description = this.description;
-    return returnObjet;
+  public readonly completedAt: Date | null;
+  private constructor(public readonly description: string) {
+    this.completedAt = null;
   }
+
   static create(props: Record<string, any>): {
     error?: string;
     createdTodoFromDto?: CreateTodoDto;
   } {
-    const { description } = props;
+    const { description, completedAt } = props;
 
     if (!description) return { error: "Description property is required" };
 

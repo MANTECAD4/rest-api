@@ -16,5 +16,5 @@ datasource db {
 model todo {
   id Int @id @default(autoincrement())
   description String @db.VarChar()
-  createdAt DateTime? @db.Timestamp()
+  completedAt DateTime? @db.Timestamp()
 }

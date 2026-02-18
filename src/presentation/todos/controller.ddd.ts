@@ -3,7 +3,6 @@ import { CreateTodoDto } from "../../domain/dtos/todos/create-todo.dto.js";
 import { UpdateTodoDto } from "../../domain/dtos/todos/update-todo.dto.js";
 import { TodoRepository } from "../../domain/repositories/todo.repository.js";
 
-// ! USING USE CASES
 export class TodosController {
   constructor(private readonly todoRepository: TodoRepository) {}
 
