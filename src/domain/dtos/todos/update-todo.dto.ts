@@ -15,6 +15,7 @@ export class UpdateTodoDto {
     error?: string;
     updatedTodoFromDto?: UpdateTodoDto;
   } {
+    if (!props) return { error: "At least one field muts be provided." };
     const { description, completedAt } = props;
 
     let completedAtDateInstance = completedAt;
@@ -25,6 +26,9 @@ export class UpdateTodoDto {
         return { error: "Invalid date..." };
       }
     }
+
+    if (!completedAt && !description)
+      return { error: "At least one valid field is required" };
 
     return {
       updatedTodoFromDto: new UpdateTodoDto(

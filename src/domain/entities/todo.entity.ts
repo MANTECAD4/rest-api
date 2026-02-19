@@ -1,4 +1,4 @@
-interface TodoEntityOptions {
+export interface TodoEntityOptions {
   id: number;
   description: string;
   completedAt: Date | null;
