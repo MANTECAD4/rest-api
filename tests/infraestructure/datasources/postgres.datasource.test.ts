@@ -4,10 +4,12 @@ import { prismaClient } from "../../../src/data/postgres";
 import { TodoEntity } from "../../../src/domain/entities/todo.entity";
 
 describe("Postgres Todo Datasource", () => {
-  beforeEach(async () => await prismaClient.todo.deleteMany());
+  beforeEach(async () => await prismaClient.todo.deleteMany({}));
   afterAll(async () => await prismaClient.$disconnect());
+
   const postgresDatasource = new PostgresDatasource();
   const newTodoOptions = { completedAt: null, description: "New Todo" };
+
   test("should have all CRUD Methods", () => {
     expect(postgresDatasource).toHaveProperty("create");
     expect(postgresDatasource).toHaveProperty("update");

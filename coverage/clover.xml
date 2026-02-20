@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1771463360510" clover="3.2.0">
-  <project timestamp="1771463360510" name="All files">
-    <metrics statements="139" coveredstatements="98" conditionals="40" coveredconditionals="17" methods="33" coveredmethods="27" elements="212" coveredelements="142" complexity="0" loc="139" ncloc="139" packages="12" files="16" classes="16"/>
+<coverage generated="1771551896540" clover="3.2.0">
+  <project timestamp="1771551896540" name="All files">
+    <metrics statements="157" coveredstatements="154" conditionals="42" coveredconditionals="41" methods="38" coveredmethods="37" elements="237" coveredelements="232" complexity="0" loc="157" ncloc="157" packages="13" files="18" classes="18"/>
     <package name="src">
       <metrics statements="5" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
       <file name="app.ts" path="C:\Users\kangr\Desktop\Cursos\Node\06-rest-web\src\app.ts">
@@ -17,16 +17,16 @@
       <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
       <file name="envs.config.ts" path="C:\Users\kangr\Desktop\Cursos\Node\06-rest-web\src\configs\envs.config.ts">
         <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
-        <line num="5" count="5" type="stmt"/>
+        <line num="5" count="7" type="stmt"/>
       </file>
     </package>
     <package name="src.data">
       <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
       <file name="postgres.ts" path="C:\Users\kangr\Desktop\Cursos\Node\06-rest-web\src\data\postgres.ts">
         <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-        <line num="7" count="3" type="stmt"/>
-        <line num="8" count="3" type="stmt"/>
-        <line num="13" count="3" type="stmt"/>
+        <line num="7" count="4" type="stmt"/>
+        <line num="8" count="4" type="stmt"/>
+        <line num="13" count="4" type="stmt"/>
       </file>
     </package>
     <package name="src.domain.dtos">
@@ -36,51 +36,52 @@
       </file>
     </package>
     <package name="src.domain.dtos.todos">
-      <metrics statements="21" coveredstatements="21" conditionals="16" coveredconditionals="15" methods="5" coveredmethods="5"/>
+      <metrics statements="22" coveredstatements="22" conditionals="18" coveredconditionals="17" methods="5" coveredmethods="5"/>
       <file name="create-todo.dto.ts" path="C:\Users\kangr\Desktop\Cursos\Node\06-rest-web\src\domain\dtos\todos\create-todo.dto.ts">
-        <metrics statements="5" coveredstatements="5" conditionals="2" coveredconditionals="2" methods="2" coveredmethods="2"/>
-        <line num="3" count="1" type="stmt"/>
-        <line num="4" count="1" type="stmt"/>
-        <line num="11" count="2" type="stmt"/>
-        <line num="13" count="2" type="cond" truecount="2" falsecount="0"/>
-        <line num="15" count="1" type="stmt"/>
+        <metrics statements="6" coveredstatements="6" conditionals="4" coveredconditionals="4" methods="2" coveredmethods="2"/>
+        <line num="3" count="2" type="stmt"/>
+        <line num="4" count="2" type="stmt"/>
+        <line num="11" count="4" type="stmt"/>
+        <line num="13" count="4" type="cond" truecount="4" falsecount="0"/>
+        <line num="14" count="2" type="stmt"/>
+        <line num="16" count="2" type="stmt"/>
       </file>
       <file name="update-todo.dto.ts" path="C:\Users\kangr\Desktop\Cursos\Node\06-rest-web\src\domain\dtos\todos\update-todo.dto.ts">
         <metrics statements="16" coveredstatements="16" conditionals="14" coveredconditionals="13" methods="3" coveredmethods="3"/>
-        <line num="3" count="4" type="stmt"/>
-        <line num="4" count="4" type="stmt"/>
-        <line num="8" count="2" type="stmt"/>
-        <line num="9" count="2" type="cond" truecount="2" falsecount="0"/>
-        <line num="10" count="2" type="cond" truecount="2" falsecount="0"/>
-        <line num="11" count="2" type="stmt"/>
-        <line num="18" count="6" type="cond" truecount="1" falsecount="1"/>
-        <line num="19" count="6" type="stmt"/>
-        <line num="21" count="6" type="stmt"/>
-        <line num="23" count="6" type="cond" truecount="2" falsecount="0"/>
-        <line num="24" count="3" type="stmt"/>
-        <line num="25" count="3" type="cond" truecount="2" falsecount="0"/>
-        <line num="26" count="1" type="stmt"/>
-        <line num="30" count="5" type="cond" truecount="4" falsecount="0"/>
-        <line num="31" count="1" type="stmt"/>
-        <line num="33" count="4" type="stmt"/>
+        <line num="3" count="5" type="stmt"/>
+        <line num="4" count="5" type="stmt"/>
+        <line num="8" count="3" type="stmt"/>
+        <line num="9" count="3" type="cond" truecount="2" falsecount="0"/>
+        <line num="10" count="3" type="cond" truecount="2" falsecount="0"/>
+        <line num="11" count="3" type="stmt"/>
+        <line num="18" count="9" type="cond" truecount="1" falsecount="1"/>
+        <line num="19" count="9" type="stmt"/>
+        <line num="21" count="9" type="stmt"/>
+        <line num="23" count="9" type="cond" truecount="2" falsecount="0"/>
+        <line num="24" count="4" type="stmt"/>
+        <line num="25" count="4" type="cond" truecount="2" falsecount="0"/>
+        <line num="26" count="2" type="stmt"/>
+        <line num="30" count="7" type="cond" truecount="4" falsecount="0"/>
+        <line num="31" count="2" type="stmt"/>
+        <line num="33" count="5" type="stmt"/>
       </file>
     </package>
     <package name="src.domain.entities">
       <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
       <file name="todo.entity.ts" path="C:\Users\kangr\Desktop\Cursos\Node\06-rest-web\src\domain\entities\todo.entity.ts">
         <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
-        <line num="12" count="12" type="stmt"/>
-        <line num="13" count="12" type="stmt"/>
-        <line num="14" count="12" type="stmt"/>
-        <line num="15" count="12" type="stmt"/>
+        <line num="12" count="30" type="stmt"/>
+        <line num="13" count="30" type="stmt"/>
+        <line num="14" count="30" type="stmt"/>
+        <line num="15" count="30" type="stmt"/>
       </file>
     </package>
     <package name="src.generated.prisma">
       <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
       <file name="client.ts" path="C:\Users\kangr\Desktop\Cursos\Node\06-rest-web\src\generated\prisma\client.ts">
         <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-        <line num="16" count="2" type="stmt"/>
-        <line num="38" count="2" type="stmt"/>
+        <line num="16" count="3" type="stmt"/>
+        <line num="38" count="3" type="stmt"/>
       </file>
       <file name="enums.ts" path="C:\Users\kangr\Desktop\Cursos\Node\06-rest-web\src\generated\prisma\enums.ts">
         <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
@@ -90,60 +91,60 @@
       <metrics statements="35" coveredstatements="35" conditionals="0" coveredconditionals="0" methods="4" coveredmethods="4"/>
       <file name="class.ts" path="C:\Users\kangr\Desktop\Cursos\Node\06-rest-web\src\generated\prisma\internal\class.ts">
         <metrics statements="11" coveredstatements="11" conditionals="0" coveredconditionals="0" methods="4" coveredmethods="4"/>
-        <line num="18" count="2" type="stmt"/>
-        <line num="35" count="2" type="stmt"/>
-        <line num="36" count="2" type="stmt"/>
-        <line num="42" count="1" type="stmt"/>
-        <line num="43" count="1" type="stmt"/>
-        <line num="44" count="1" type="stmt"/>
-        <line num="47" count="2" type="stmt"/>
-        <line num="48" count="1" type="stmt"/>
-        <line num="51" count="1" type="stmt"/>
-        <line num="52" count="1" type="stmt"/>
-        <line num="199" count="2" type="stmt"/>
+        <line num="18" count="3" type="stmt"/>
+        <line num="35" count="3" type="stmt"/>
+        <line num="36" count="3" type="stmt"/>
+        <line num="42" count="2" type="stmt"/>
+        <line num="43" count="2" type="stmt"/>
+        <line num="44" count="2" type="stmt"/>
+        <line num="47" count="3" type="stmt"/>
+        <line num="48" count="2" type="stmt"/>
+        <line num="51" count="2" type="stmt"/>
+        <line num="52" count="2" type="stmt"/>
+        <line num="199" count="3" type="stmt"/>
       </file>
       <file name="prismaNamespace.ts" path="C:\Users\kangr\Desktop\Cursos\Node\06-rest-web\src\generated\prisma\internal\prismaNamespace.ts">
         <metrics statements="24" coveredstatements="24" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-        <line num="32" count="2" type="stmt"/>
-        <line num="35" count="2" type="stmt"/>
-        <line num="38" count="2" type="stmt"/>
-        <line num="41" count="2" type="stmt"/>
-        <line num="44" count="2" type="stmt"/>
-        <line num="50" count="2" type="stmt"/>
-        <line num="51" count="2" type="stmt"/>
-        <line num="52" count="2" type="stmt"/>
-        <line num="53" count="2" type="stmt"/>
-        <line num="54" count="2" type="stmt"/>
-        <line num="62" count="2" type="stmt"/>
-        <line num="71" count="2" type="stmt"/>
-        <line num="86" count="2" type="stmt"/>
-        <line num="104" count="2" type="stmt"/>
-        <line num="114" count="2" type="stmt"/>
-        <line num="121" count="2" type="stmt"/>
-        <line num="128" count="2" type="stmt"/>
-        <line num="386" count="2" type="stmt"/>
-        <line num="510" count="2" type="stmt"/>
-        <line num="520" count="2" type="stmt"/>
-        <line num="529" count="2" type="stmt"/>
-        <line num="537" count="2" type="stmt"/>
-        <line num="545" count="2" type="stmt"/>
-        <line num="621" count="2" type="stmt"/>
+        <line num="32" count="3" type="stmt"/>
+        <line num="35" count="3" type="stmt"/>
+        <line num="38" count="3" type="stmt"/>
+        <line num="41" count="3" type="stmt"/>
+        <line num="44" count="3" type="stmt"/>
+        <line num="50" count="3" type="stmt"/>
+        <line num="51" count="3" type="stmt"/>
+        <line num="52" count="3" type="stmt"/>
+        <line num="53" count="3" type="stmt"/>
+        <line num="54" count="3" type="stmt"/>
+        <line num="62" count="3" type="stmt"/>
+        <line num="71" count="3" type="stmt"/>
+        <line num="86" count="3" type="stmt"/>
+        <line num="104" count="3" type="stmt"/>
+        <line num="114" count="3" type="stmt"/>
+        <line num="121" count="3" type="stmt"/>
+        <line num="128" count="3" type="stmt"/>
+        <line num="386" count="3" type="stmt"/>
+        <line num="510" count="3" type="stmt"/>
+        <line num="520" count="3" type="stmt"/>
+        <line num="529" count="3" type="stmt"/>
+        <line num="537" count="3" type="stmt"/>
+        <line num="545" count="3" type="stmt"/>
+        <line num="621" count="3" type="stmt"/>
       </file>
     </package>
     <package name="src.infraestructure.datasources">
-      <metrics statements="10" coveredstatements="8" conditionals="2" coveredconditionals="2" methods="6" coveredmethods="5"/>
+      <metrics statements="10" coveredstatements="10" conditionals="2" coveredconditionals="2" methods="6" coveredmethods="6"/>
       <file name="postgres.datasource.ts" path="C:\Users\kangr\Desktop\Cursos\Node\06-rest-web\src\infraestructure\datasources\postgres.datasource.ts">
-        <metrics statements="10" coveredstatements="8" conditionals="2" coveredconditionals="2" methods="6" coveredmethods="5"/>
-        <line num="9" count="5" type="stmt"/>
-        <line num="13" count="5" type="stmt"/>
-        <line num="17" count="0" type="stmt"/>
-        <line num="21" count="0" type="stmt"/>
-        <line num="25" count="4" type="stmt"/>
-        <line num="26" count="4" type="stmt"/>
-        <line num="30" count="2" type="stmt"/>
-        <line num="35" count="2" type="cond" truecount="2" falsecount="0"/>
-        <line num="39" count="1" type="stmt"/>
-        <line num="40" count="1" type="stmt"/>
+        <metrics statements="10" coveredstatements="10" conditionals="2" coveredconditionals="2" methods="6" coveredmethods="6"/>
+        <line num="9" count="14" type="stmt"/>
+        <line num="13" count="14" type="stmt"/>
+        <line num="17" count="1" type="stmt"/>
+        <line num="21" count="1" type="stmt"/>
+        <line num="25" count="5" type="stmt"/>
+        <line num="26" count="6" type="stmt"/>
+        <line num="30" count="10" type="stmt"/>
+        <line num="35" count="10" type="cond" truecount="2" falsecount="0"/>
+        <line num="39" count="2" type="stmt"/>
+        <line num="40" count="2" type="stmt"/>
       </file>
     </package>
     <package name="src.infraestructure.repositories">
@@ -159,70 +160,96 @@
       </file>
     </package>
     <package name="src.presentation">
-      <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <metrics statements="18" coveredstatements="16" conditionals="0" coveredconditionals="0" methods="6" coveredmethods="5"/>
       <file name="routes.ts" path="C:\Users\kangr\Desktop\Cursos\Node\06-rest-web\src\presentation\routes.ts">
         <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
-        <line num="7" count="1" type="stmt"/>
-        <line num="9" count="1" type="stmt"/>
+        <line num="7" count="2" type="stmt"/>
+        <line num="9" count="2" type="stmt"/>
+        <line num="10" count="2" type="stmt"/>
+      </file>
+      <file name="server.ts" path="C:\Users\kangr\Desktop\Cursos\Node\06-rest-web\src\presentation\server.ts">
+        <metrics statements="15" coveredstatements="13" conditionals="0" coveredconditionals="0" methods="5" coveredmethods="4"/>
         <line num="10" count="1" type="stmt"/>
+        <line num="18" count="1" type="stmt"/>
+        <line num="19" count="1" type="stmt"/>
+        <line num="20" count="1" type="stmt"/>
+        <line num="25" count="1" type="stmt"/>
+        <line num="26" count="1" type="stmt"/>
+        <line num="29" count="1" type="stmt"/>
+        <line num="32" count="1" type="stmt"/>
+        <line num="35" count="1" type="stmt"/>
+        <line num="36" count="0" type="stmt"/>
+        <line num="40" count="0" type="stmt"/>
+        <line num="43" count="1" type="stmt"/>
+        <line num="44" count="1" type="stmt"/>
+        <line num="48" count="1" type="stmt"/>
+        <line num="49" count="1" type="stmt"/>
       </file>
     </package>
     <package name="src.presentation.todos">
-      <metrics statements="49" coveredstatements="10" conditionals="22" coveredconditionals="0" methods="7" coveredmethods="2"/>
+      <metrics statements="49" coveredstatements="48" conditionals="22" coveredconditionals="22" methods="7" coveredmethods="7"/>
       <file name="controller.ts" path="C:\Users\kangr\Desktop\Cursos\Node\06-rest-web\src\presentation\todos\controller.ts">
-        <metrics statements="40" coveredstatements="1" conditionals="22" coveredconditionals="0" methods="6" coveredmethods="1"/>
-        <line num="8" count="1" type="stmt"/>
-        <line num="10" count="0" type="stmt"/>
-        <line num="11" count="0" type="stmt"/>
-        <line num="12" count="0" type="stmt"/>
-        <line num="15" count="0" type="stmt"/>
-        <line num="16" count="0" type="stmt"/>
-        <line num="17" count="0" type="cond" truecount="0" falsecount="2"/>
-        <line num="18" count="0" type="stmt"/>
-        <line num="19" count="0" type="stmt"/>
-        <line num="21" count="0" type="cond" truecount="0" falsecount="2"/>
-        <line num="26" count="0" type="stmt"/>
-        <line num="27" count="0" type="stmt"/>
-        <line num="28" count="0" type="stmt"/>
-        <line num="30" count="0" type="cond" truecount="0" falsecount="4"/>
-        <line num="32" count="0" type="stmt"/>
-        <line num="34" count="0" type="stmt"/>
-        <line num="37" count="0" type="stmt"/>
-        <line num="38" count="0" type="stmt"/>
-        <line num="40" count="0" type="cond" truecount="0" falsecount="2"/>
-        <line num="41" count="0" type="stmt"/>
-        <line num="43" count="0" type="stmt"/>
-        <line num="45" count="0" type="cond" truecount="0" falsecount="2"/>
-        <line num="46" count="0" type="stmt"/>
-        <line num="48" count="0" type="stmt"/>
-        <line num="50" count="0" type="cond" truecount="0" falsecount="2"/>
-        <line num="51" count="0" type="stmt"/>
-        <line num="55" count="0" type="stmt"/>
-        <line num="57" count="0" type="cond" truecount="0" falsecount="4"/>
-        <line num="59" count="0" type="stmt"/>
-        <line num="64" count="0" type="stmt"/>
-        <line num="67" count="0" type="stmt"/>
-        <line num="68" count="0" type="stmt"/>
-        <line num="69" count="0" type="cond" truecount="0" falsecount="2"/>
-        <line num="71" count="0" type="stmt"/>
-        <line num="73" count="0" type="cond" truecount="0" falsecount="2"/>
-        <line num="74" count="0" type="stmt"/>
-        <line num="76" count="0" type="stmt"/>
-        <line num="77" count="0" type="stmt"/>
-        <line num="78" count="0" type="stmt"/>
-        <line num="80" count="0" type="stmt"/>
+        <metrics statements="40" coveredstatements="39" conditionals="22" coveredconditionals="22" methods="6" coveredmethods="6"/>
+        <line num="8" count="2" type="stmt"/>
+        <line num="10" count="1" type="stmt"/>
+        <line num="11" count="1" type="stmt"/>
+        <line num="12" count="1" type="stmt"/>
+        <line num="15" count="3" type="stmt"/>
+        <line num="16" count="3" type="stmt"/>
+        <line num="17" count="3" type="cond" truecount="2" falsecount="0"/>
+        <line num="18" count="1" type="stmt"/>
+        <line num="19" count="2" type="stmt"/>
+        <line num="21" count="2" type="cond" truecount="2" falsecount="0"/>
+        <line num="26" count="2" type="stmt"/>
+        <line num="27" count="2" type="stmt"/>
+        <line num="28" count="2" type="stmt"/>
+        <line num="30" count="2" type="cond" truecount="4" falsecount="0"/>
+        <line num="32" count="1" type="stmt"/>
+        <line num="34" count="1" type="stmt"/>
+        <line num="37" count="6" type="stmt"/>
+        <line num="38" count="6" type="stmt"/>
+        <line num="39" count="6" type="stmt"/>
+        <line num="41" count="6" type="cond" truecount="2" falsecount="0"/>
+        <line num="42" count="1" type="stmt"/>
+        <line num="44" count="5" type="cond" truecount="2" falsecount="0"/>
+        <line num="45" count="5" type="stmt"/>
+        <line num="49" count="4" type="stmt"/>
+        <line num="51" count="4" type="cond" truecount="2" falsecount="0"/>
+        <line num="52" count="1" type="stmt"/>
+        <line num="54" count="3" type="stmt"/>
+        <line num="56" count="3" type="cond" truecount="4" falsecount="0"/>
+        <line num="58" count="1" type="stmt"/>
+        <line num="63" count="1" type="stmt"/>
+        <line num="66" count="3" type="stmt"/>
+        <line num="67" count="3" type="stmt"/>
+        <line num="68" count="3" type="cond" truecount="2" falsecount="0"/>
+        <line num="70" count="2" type="stmt"/>
+        <line num="72" count="2" type="cond" truecount="2" falsecount="0"/>
+        <line num="73" count="2" type="stmt"/>
+        <line num="75" count="1" type="stmt"/>
+        <line num="76" count="1" type="stmt"/>
+        <line num="77" count="1" type="stmt"/>
+        <line num="79" count="0" type="stmt"/>
       </file>
       <file name="routes.ts" path="C:\Users\kangr\Desktop\Cursos\Node\06-rest-web\src\presentation\todos\routes.ts">
         <metrics statements="9" coveredstatements="9" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="7" count="2" type="stmt"/>
+        <line num="8" count="2" type="stmt"/>
+        <line num="9" count="2" type="stmt"/>
+        <line num="11" count="2" type="stmt"/>
+        <line num="12" count="2" type="stmt"/>
+        <line num="13" count="2" type="stmt"/>
+        <line num="14" count="2" type="stmt"/>
+        <line num="15" count="2" type="stmt"/>
+        <line num="17" count="2" type="stmt"/>
+      </file>
+    </package>
+    <package name="tests.presentation">
+      <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      <file name="test-server.ts" path="C:\Users\kangr\Desktop\Cursos\Node\06-rest-web\tests\presentation\test-server.ts">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="5" count="1" type="stmt"/>
         <line num="7" count="1" type="stmt"/>
-        <line num="8" count="1" type="stmt"/>
-        <line num="9" count="1" type="stmt"/>
-        <line num="11" count="1" type="stmt"/>
-        <line num="12" count="1" type="stmt"/>
-        <line num="13" count="1" type="stmt"/>
-        <line num="14" count="1" type="stmt"/>
-        <line num="15" count="1" type="stmt"/>
-        <line num="17" count="1" type="stmt"/>
       </file>
     </package>
   </project>

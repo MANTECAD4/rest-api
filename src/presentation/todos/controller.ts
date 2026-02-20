@@ -31,26 +31,25 @@ export class TodosController {
 
     const newTodo = await this.todoRepository.create(createdTodoFromDto);
 
-    return res.json(newTodo);
+    return res.status(201).json(newTodo);
   };
 
   updateTodo = async (req: Request, res: Response) => {
     const id = Number(req.params.id);
+    const { body } = req;
 
     if (isNaN(id))
       return res.status(400).json({ error: `Id is not a number.` });
+
+    if (!body)
+      return res
+        .status(400)
+        .json({ error: "No data recieved. At least one value is required." });
 
     const todo = await this.todoRepository.getById(id);
 
     if (todo === null)
       return res.status(404).json({ error: `Todo with id ${id} not found.` });
-
-    const { body } = req;
-
-    if (!body)
-      return res
-        .status(400)
-        .json({ error: "No data recived. At least one value is required." });
 
     const { error, updatedTodoFromDto } = UpdateTodoDto.update(body);
 
@@ -61,7 +60,7 @@ export class TodosController {
       updatedTodoFromDto,
     );
 
-    return res.json(updatedTodo);
+    return res.status(201).json(updatedTodo);
   };
 
   deleteTodo = async (req: Request, res: Response) => {

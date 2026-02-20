@@ -10,7 +10,8 @@ export class CreateTodoDto {
   } {
     const { description, completedAt } = props;
 
-    if (!description) return { error: "Description property is required" };
+    if (!description || description.length === 0)
+      return { error: "Description property is required" };
 
     return {
       createdTodoFromDto: new CreateTodoDto(description),
